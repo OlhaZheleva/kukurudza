@@ -1,0 +1,146 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+/* Removing padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Removing margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+
+ 
+/* Set the basic default settings for the body */
+body {
+  line-height: 1.5;
+  min-height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Remove the default styling for all ul and li that have a class attribute */
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* Elements a that don't have a class are reset to default styles */
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Indicate a clear frequency in the data flow for article */
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Inheriting fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  outline: none;
+}
+
+
+*,
+*::before,
+*::after,
+span {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: 'Commissioner';
+  color: #1A1A1A;
+}
+p {
+  font-style: normal;
+  font-weight: 300;
+  /* or 138% */
+}
+h1, h2 {
+  font-family: 'Ermilov-Bold';
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #1A1A1A;
+}
+
+ul,
+ol,
+li {
+  font-family: 'Commissioner';
+  font-style: normal;
+  font-weight: 300;
+  color: #1A1A1A;
+}
+
+a {
+  font-family: 'Ermilov-Bold';
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #1A1A1A;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+ul {
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+  min-width: 320px;
+}
